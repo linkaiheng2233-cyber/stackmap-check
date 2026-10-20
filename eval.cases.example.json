@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "locate": [
+    { "q": "contributing", "expect": ["CONTRIBUTING.md"] },
+    { "q": "installation", "expect": ["README.md"] }
+  ],
+  "coupling": ["stackmap"]
+}

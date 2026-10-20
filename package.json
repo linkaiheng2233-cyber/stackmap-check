@@ -1,0 +1,30 @@
+{
+  "name": "stackmap-check",
+  "version": "0.1.0",
+  "description": "Read-only documentation navigation for coding agents: find which documents mention a term, then read the right section instead of the whole tree.",
+  "type": "module",
+  "bin": {
+    "stackmap": "./cli.mjs"
+  },
+  "files": [
+    "cli.mjs",
+    "eval.mjs",
+    "eval.cases.example.json"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test cli.test.mjs",
+    "eval": "node eval.mjs",
+    "eval:gate": "node eval.mjs --gate"
+  },
+  "keywords": [
+    "documentation",
+    "navigation",
+    "agents",
+    "git",
+    "cli"
+  ],
+  "license": "Apache-2.0"
+}
