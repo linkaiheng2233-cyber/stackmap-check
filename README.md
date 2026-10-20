@@ -1,5 +1,7 @@
 # stackmap-check
 
+[![test](https://github.com/linkaiheng2233-cyber/stackmap-check/actions/workflows/test.yml/badge.svg)](https://github.com/linkaiheng2233-cyber/stackmap-check/actions/workflows/test.yml)
+
 Read-only documentation navigation for coding agents.
 
 Agents often answer "where is this documented?" by reading a lot of files. This tool turns that into two steps: **locate** a few candidate documents, then **read the right section of the original**. It never edits, never starts a service and never touches the network.
